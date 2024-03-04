@@ -29,20 +29,20 @@ const InvoiceCard = () => {
         </div>
         <InvoiceTable />
         <div className=" flex  items-end text-[10px] max-lg:text-[20px] max-sm:text-[10px] flex-col  mt-5 gap-1.5">
-          <div className=" flex gap-8 max-lg:gap-24 max-sm:gap-8">
+          <div className=" flex gap-8 max-lg:gap-24 max-sm:gap-8 pr-3">
             <h3>Subtotal</h3>
             <h3>$2820.00</h3>
           </div>
-          <div className=" flex gap-10 text-color--4C4D4F opacity-50 max-lg:gap-28 max-sm:gap-10">
+          <div className=" flex gap-10 text-color--4C4D4F opacity-50 max-lg:gap-28 max-sm:gap-10 pr-3">
             <h3>tax</h3>
             <h3>$00.00</h3>
           </div>
-          <div className=" flex gap-10 text-color--4C4D4F opacity-50 max-lg:gap-28 max-sm:gap-10">
+          <div className=" flex gap-10 text-color--4C4D4F opacity-50 max-lg:gap-28 max-sm:gap-10 pr-3">
             <h3>Discount</h3>
             <h3>$00.00</h3>
           </div>
           <Separator className="w-full" />
-          <div className=" flex gap-10 mt-2 max-lg:gap-28 max-sm:gap-10    ">
+          <div className=" flex gap-10 mt-2 max-lg:gap-28 max-sm:gap-10  pr-3   ">
             <h3>total</h3>
             <h3>$2820.00</h3>
           </div>
