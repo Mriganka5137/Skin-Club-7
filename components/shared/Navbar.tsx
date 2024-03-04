@@ -12,7 +12,7 @@ const Navbar = () => {
       <Image
         src={Hamburger}
         alt="hamburger menu"
-        className=" size-12 2xl:hidden"
+        className=" size-12 desktop:hidden"
       />
       <Image src={Logo} alt="logo" className="w-[136px] h-6" />
       <div className=" flex justify-between items-center w-[290px] text-color--4C4D4F text-sm max-lg:w-fit ">
