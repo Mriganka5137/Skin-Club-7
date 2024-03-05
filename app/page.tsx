@@ -11,7 +11,7 @@ export default function Home() {
 
       <div className="flex max-lg:flex-col gap-6 mt-8 w-full   ">
         <TableContainer />
-        <InvoiceContainer />
+        <InvoiceContainer url="/" />
       </div>
     </main>
   );

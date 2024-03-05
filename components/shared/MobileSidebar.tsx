@@ -4,12 +4,12 @@ import Hamburger from "@/public/assets/Hamburger.png";
 import Image from "next/image";
 import { sidebar } from "@/lib/data";
 import { Button } from "../ui/button";
-
+import { RxHamburgerMenu } from "react-icons/rx";
 const MobileSidebar = () => {
   return (
     <Sheet>
       <SheetTrigger className="desktop:hidden">
-        <Image src={Hamburger} alt="hamburger menu" className=" size-12 " />
+        <RxHamburgerMenu className="size-12 bg-color--F8F8F8 p-2.5 rounded-[14px] text-color--4C4D4F cursor-pointer" />
       </SheetTrigger>
       <SheetContent side="left" className="w-fit h-screen overflow-auto">
         <div className="bg-white w-full  sidebar text-color--4C4D4F  flex flex-col gap-9 px-4 pb-5  ">

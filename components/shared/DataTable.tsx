@@ -17,7 +17,7 @@ const DataTable = () => {
   const [selected, setSelected] = useState(5);
   return (
     <div className="px-7 py-6 max-tablet:px-2 ">
-      <div className="border rounded-xl overflow-hidden max-lg:border-none">
+      <div className="border rounded-xl overflow-hidden max-lg:border-none border-color--4C4D4F border-opacity-20">
         <Table className=" text-[10px] max-lg:text-[12px] max-sm:text-[8px]">
           <TableHeader className=" text-color--4C4D4F opacity-80 text-xs font-light max-lg:bg-white">
             <TableRow className="border-none ">
@@ -32,7 +32,7 @@ const DataTable = () => {
             {payments.map((payment, index) => (
               <TableRow
                 className={cn(
-                  "cursor-pointer",
+                  "cursor-pointer border-color--4C4D4F border-opacity-20",
                   selected === index && "bg-white"
                 )}
                 key={index}
@@ -68,8 +68,8 @@ const DataTable = () => {
               </TableRow>
             ))}
           </TableBody>
-          <TableFooter className="max-lg:bg-transparent">
-            <TableRow className="hover:bg-inherit ">
+          <TableFooter className="max-lg:bg-transparent border-color--4C4D4F border-opacity-20">
+            <TableRow className="hover:bg-inherit border-none">
               <TableCell colSpan={5} align="center">
                 <span className="underline text-sm cursor-pointer">
                   View More
