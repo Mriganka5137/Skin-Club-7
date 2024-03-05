@@ -9,7 +9,7 @@ interface InvoiceContainerProps {
 }
 const InvoiceContainer = ({ edit, url }: InvoiceContainerProps) => {
   return (
-    <div className="  bg-white p-4 rounded-[14px] max-lg:w-full max-lg:h-[1500px] max-sm:h-[900px] max-sm:p-3 flex-shrink-0 flex flex-col justify-between max-lg:justify-start max-lg:gap-20 max-sm:pb-10 w-full xl:w-[377px] gap-20">
+    <div className="  bg-white p-4 rounded-[14px] max-lg:w-full max-lg:h-[1500px] max-sm:h-[900px] max-sm:p-3 flex-shrink-0 flex flex-col justify-between max-lg:justify-start max-lg:gap-20 max-sm:pb-10 w-full lg:w-[377px] gap-20">
       <div>
         <div className=" flex justify-between items-center">
           <h3 className=" text-[14px] max-lg:text-[28px] max-sm:text-[15px]">

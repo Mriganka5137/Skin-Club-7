@@ -93,4 +93,7 @@ body,
   .template-icons span {
     @apply text-[14px] mobile:text-[26px] tablet:text-[14px] text-black text-opacity-50;
   }
+  .payment-text {
+    @apply text-black text-opacity-50 font-light;
+  }
 }
