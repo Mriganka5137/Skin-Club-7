@@ -31,7 +31,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${cabin.variable}`}>
         <div className=" flex flex-col">
           <Navbar />
-          <div className=" flex w-full border border-red-500">
+          <div className=" flex w-full  ">
             <Sidebar />
             {children}
           </div>
