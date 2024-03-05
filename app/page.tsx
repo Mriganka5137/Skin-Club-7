@@ -3,12 +3,12 @@ import TableContainer from "@/components/shared/TableContainer";
 
 export default function Home() {
   return (
-    <main className=" px-6 py-8 mx-auto max-2xl:w-full ">
+    <main className=" px-6 py-8 mx-auto w-full  border border-blue-400">
       <h1 className=" text-3xl font-light text-color--4C4D4F">Invoice</h1>
       <h3 className=" mt-2  text-color--4C4D4F opacity-85 text-lg">
         Invoice list
       </h3>
-      <div className="flex max-lg:flex-col gap-6 mt-8 ">
+      <div className="flex max-lg:flex-col gap-6 mt-8 w-full border border-pink-400 ">
         <TableContainer />
         <InvoiceContainer />
       </div>
