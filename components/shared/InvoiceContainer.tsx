@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "../ui/button";
 import InvoiceCard from "./InvoiceCard";
 import { CiEdit } from "react-icons/ci";
@@ -16,7 +17,9 @@ const InvoiceContainer = ({ edit, url }: InvoiceContainerProps) => {
           </h3>
           <div className="flex justify-between gap-5 items-center">
             {edit && (
-              <CiEdit className="size-9 p-2 bg-color--F8F8F8  rounded-[8px] max-lg:size-20 max-lg:p-4 max-sm:size-10 max-sm:p-3 " />
+              <Link href="/edit-invoice">
+                <CiEdit className="size-9 p-2 bg-color--F8F8F8  rounded-[8px] max-lg:size-20 max-lg:p-4 max-sm:size-10 max-sm:p-3 " />
+              </Link>
             )}
             <PiPrinterThin className="size-9 p-2 bg-color--F8F8F8  rounded-[8px] max-lg:size-20 max-lg:p-4 max-sm:size-10 max-sm:p-3 " />
           </div>

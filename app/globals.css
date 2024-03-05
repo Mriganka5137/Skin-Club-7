@@ -85,4 +85,12 @@ body,
     min-height: calc(100vh - 80px);
     max-height: fit-content;
   }
+
+  .template-icons {
+    @apply border w-full flex justify-center items-center rounded-md py-8 flex-col;
+  }
+
+  .template-icons span {
+    @apply text-[14px] mobile:text-[26px] tablet:text-[14px] text-black text-opacity-50;
+  }
 }
