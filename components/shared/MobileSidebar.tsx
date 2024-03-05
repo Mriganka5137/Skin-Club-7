@@ -8,7 +8,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 const MobileSidebar = () => {
   return (
     <Sheet>
-      <SheetTrigger className="desktop:hidden">
+      <SheetTrigger className="2xl:hidden">
         <RxHamburgerMenu className="size-12 bg-color--F8F8F8 p-2.5 rounded-[14px] text-color--4C4D4F cursor-pointer" />
       </SheetTrigger>
       <SheetContent side="left" className="w-fit h-screen overflow-auto">

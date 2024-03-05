@@ -2,10 +2,10 @@ import React from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
 import { Separator } from "../ui/separator";
 import CreateInvoiceTab from "./CreateInvoiceTab";
-
+// min-w-[700px] w-full max-lg:min-w-full
 const TabsContainer = () => {
   return (
-    <div className="bg-white max-lg:bg-transparent  max-lg:text-[12px] pb-8 min-w-[700px] w-full max-lg:min-w-full rounded-[14px]">
+    <div className="bg-white max-lg:bg-transparent  max-lg:text-[12px] pb-8  rounded-[14px] w-full ">
       <Tabs className="w-full h-full" defaultValue="create-invoice">
         <TabsList className="flex justify-start  bg-transparent gap-10  h-fit px-10 pt-5 max-sm:px-2 max-sm:pt-1 max-sm:gap-5 ">
           <TabsTrigger

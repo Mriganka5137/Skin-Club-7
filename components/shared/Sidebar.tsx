@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 
 const Sidebar = () => {
   return (
-    <div className="bg-white w-60 sidebar text-color--4C4D4F  flex flex-col gap-9 px-4 pb-5 max-[1400px]:hidden">
+    <div className="bg-white w-60 sidebar text-color--4C4D4F  flex flex-col gap-9 px-4 pb-5 max-2xl:hidden">
       {sidebar.map((item, index) => (
         <div key={index} className="first:mt-10 px-4">
           <p className="  text-lg font-light">{item.label}</p>
