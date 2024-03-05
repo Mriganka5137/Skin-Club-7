@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 import InvoiceCard from "./InvoiceCard";
 const InvoiceContainer = () => {
   return (
-    <div className=" w-[377px] bg-white p-4 rounded-[14px] max-lg:w-full max-lg:h-[1500px] max-sm:h-[800px] max-sm:p-2">
+    <div className=" w-[377px] bg-white p-4 rounded-[14px] max-lg:w-full max-lg:h-[1500px] max-sm:h-[800px] max-sm:p-2 flex-shrink-0">
       <div className=" flex justify-between items-center">
         <h3 className=" text-[14px] max-lg:text-[28px] max-sm:text-[15px]">
           Preview Invoice
