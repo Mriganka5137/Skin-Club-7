@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
+import ConfirmButton from "./ConfirmButton";
 
 const PaymentConfirmation = () => {
   return (
@@ -15,12 +16,8 @@ const PaymentConfirmation = () => {
         >
           Save
         </Button>
-        <Button
-          variant="default"
-          className="rounded-full text-[8px] mobile:text-[14px] h-7 w-[106px] mobile:h-12 mobile:w-[200px]  "
-        >
-          Confirm Payment
-        </Button>
+
+        <ConfirmButton />
       </div>
     </div>
   );
